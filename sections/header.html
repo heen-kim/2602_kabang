@@ -620,12 +620,12 @@
       $dropBtn.click(function(){
         $dropDownContent.toggleClass('is-active');
         $dropBtn.toggleClass('rotate');
-			});
+      });
 
       $(window).click(function(e){
         if (!$(e.target).closest('.drop_btn').length) {
           $dropDownContent.removeClass('is-active');
-          $dropBtn.removeClass('rotate');  
+          $dropBtn.removeClass('rotate');
         }
       });
 
