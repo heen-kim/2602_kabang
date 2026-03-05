@@ -29,8 +29,18 @@
           </p>
 
           <ul class="btns flex">
-            <li><a href="#">Google Play</a></li>
-            <li><a href="#">App Store</a></li>
+            <li>
+              <a href="#">
+                <span class="ico ico-1"></span>
+                <span>Google Play</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="ico ico-2"></span>
+                <span>App Store</span>
+              </a>
+            </li>
           </ul>
         </div>
     </div>
@@ -156,7 +166,6 @@
       /* ---------- 메인 배너 시작 ---------- */
       .main_banner {
         position: relative;
-
       }
 
       .main_banner > .banner_img {
@@ -192,9 +201,9 @@
 
       .main_banner > .text_box > .btns > li:first-child {
 			  margin-right: 12px;
-		  }
+      }
 
-		  .main_banner > .text_box > .btns > li > a {
+      .main_banner > .text_box > .btns > li > a {
         display: block;
         width: 178px;
         height: 56px;
@@ -205,8 +214,27 @@
         line-height: 56px;
         color: #333;
         background-color: #fff;
-        text-align: center;
-		  }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .main_banner > .text_box > .btns .ico {
+        width: 24px;
+        height: 24px;
+        display: block;
+        background-image: url(../imgs/img_kabang_250717.png);
+        margin-right: 10px;
+      }
+
+      .main_banner > .text_box > .btns .ico-1 {
+        background-position: -341px -292px;
+      }
+
+      .main_banner > .text_box > .btns .ico-2 {
+        background-position: -371px -292px;
+      }
+
       /* 텍스트 끝 */
       /* ---------- 메인 배너 끝 ---------- */
       
